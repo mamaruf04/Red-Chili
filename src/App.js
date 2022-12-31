@@ -1,5 +1,4 @@
 import Home from "../src/Pages/Home/Home/Home";
-import Footer from "../src/Pages/Shared/Footer/Footer";
 import Header from "../src/Pages/Shared/Header/Header";
 import "./App.css";
 
@@ -8,7 +7,7 @@ function App() {
     <div>
       <Header></Header>
       <Home></Home>
-      <Footer></Footer>
+      {/* <Footer></Footer> */}
     </div>
   );
 }
