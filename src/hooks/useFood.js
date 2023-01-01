@@ -2,15 +2,15 @@ import { useEffect, useState } from 'react';
 
 const useFood = () => {
 
-    const [foods, setFoods] = useState();
+    const [categories, setCategories] = useState();
 
     useEffect(() =>{
-        fetch('food.json')
-        .then(res => res.json())
-        .then(data => setFoods(data?.menu))
+        fetch("food.json")
+          .then((res) => res.json())
+          .then((data) => setCategories(data?.menu));
     },[])
 
-    return {foods,setFoods}
+    return { categories, setCategories };
 };
 
 export default useFood;
