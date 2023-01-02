@@ -1,15 +1,22 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import useFood from "../../../../hooks/useFood";
 
 const FoodNavbar = () => {
   const { categories } = useFood();
   
   return (
-    <div>
-      <h1>this is food navbar.</h1>
+    <div className="md:text-xl text-lg text-center font-bold md:my-20 my-10">
       {categories?.map((category) => (
-        <Link key={category.category} to={category.category}>{category.category} </Link>
+        <NavLink
+          className={({ isActive }) =>
+            isActive ? "border-b-4 rounded-md border-red-500 md:mx-6 mx-2 uppercase" : "md:mx-6 mx-2 uppercase"
+          }
+          key={category.category}
+          to={category.category}
+        >
+          {category.category}
+        </NavLink>
       ))}
     </div>
   );

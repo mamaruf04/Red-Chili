@@ -12,14 +12,13 @@ function App() {
       <Routes>
         {/* <Route path="/" element={<Home></Home>}></Route> */}
         <Route path="/" element={<Home></Home>}>
-          <Route path=":foodCategory" element={<FoodCategory></FoodCategory>}>
-          {/* <Route
+          <Route path="/" element={<FoodCategory></FoodCategory>}></Route>
+          <Route
             path=":foodCategory"
             element={<FoodCategory></FoodCategory>}
-          ></Route> */}
+          ></Route>
         </Route>
-        
-        </Route>
+        <Route path="/checkout" element={<NotFound></NotFound>}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
     </div>
