@@ -9,8 +9,8 @@ import HomeDeliveryIcon from "../../../images/icons/Group 245.png";
 
 const WhyUs = () => {
     return (
-      <div className="container mb-20">
-        <div className="md:w-1/2 p-20">
+      <div className="mb-20">
+        <div className="md:w-1/2 md:p-20 p-10">
           <h1 className="text-3xl">Why you choose us</h1>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo iure,
@@ -18,8 +18,8 @@ const WhyUs = () => {
           </p>
         </div>
 
-        <div className="container mx-10 flex justify-center gap-6">
-          <div className="w-1/4 flex flex-col gap-3">
+        <div className=" mx-10 flex flex-wrap justify-center gap-6">
+          <div className="w-80 flex flex-col gap-3">
             <img src={fastDeliveryImg} alt="" />
             <div className="flex justify-center items-start gap-3">
               <img height={"5px"} src={fastDeliveryIcon} alt="" />
@@ -35,7 +35,7 @@ const WhyUs = () => {
               </div>
             </div>
           </div>
-          <div className="w-1/4 flex flex-col gap-3">
+          <div className="w-80 flex flex-col gap-3">
             <img src={AutoResponderImg} alt="" />
             <div className="flex justify-center items-start gap-3">
               <img height={"5px"} src={AutoResponderIcon} alt="" />
@@ -53,7 +53,7 @@ const WhyUs = () => {
               </div>
             </div>
           </div>
-          <div className="w-1/4 flex flex-col gap-3">
+          <div className="w-80 flex flex-col gap-3">
             <img src={HomeDeliveryImg} alt="" />
             <div className="flex justify-center items-start gap-3">
               <img height={"5px"} src={HomeDeliveryIcon} alt="" />

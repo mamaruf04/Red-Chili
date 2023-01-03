@@ -14,10 +14,14 @@ const FoodCategory = () => {
 
   return (
     <>
-      <div className="grid md:grid-cols-3 grid-cols-1 gap-2 mx-auto items-center container my-20">
+      <div className="grid md:grid-cols-3 grid-cols-1  mx-auto items-center  my-20">
         {displayFoods?.items.map((food) => (
-          <div key={food.id} className="w-5/6">
-            <div className="bg-white rounded-lg hover:drop-shadow-2xl p-4 flex flex-col justify-between items-center">
+          <div
+            onClick={() => navigate(`foodDetails/${food.id}`)}
+            key={food.id}
+            className="w-5/6 mx-auto cursor-pointer"
+          >
+            <div className="bg-white rounded-lg hover:drop-shadow-2xl p-4 flex flex-col justify-center items-center">
               <img src={food.image} alt={food.name} className="w-48 rounded" />
               <div className="text-2xl text-center font-bold text-gray-800 my-2">
                 {food.name}

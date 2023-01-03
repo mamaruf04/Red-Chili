@@ -108,6 +108,27 @@
       ]
     },
     {
+      "category": "snacks",
+      "items": [
+        {
+          "id": 19,
+          "image": "https://i.ibb.co/nB1cNsP/breakfast5.png",
+          "name": "Yogurt and Fruit",
+          "description": "Hamburger patty with fries",
+          "price": 8.99,
+          "quantity": 1
+        },
+        {
+          "id": 20,
+          "image": "https://i.ibb.co/dLqttJc/dinner1.png",
+          "name": "Hamburger",
+          "description": "Hamburger patty with fries",
+          "price": 8.99,
+          "quantity": 1
+        }
+      ]
+    },
+    {
       "category": "dinner",
       "items": [
         {
