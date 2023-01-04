@@ -11,8 +11,8 @@ const WhyUs = () => {
     return (
       <div className="mb-20">
         <div className="md:w-1/2 md:p-20 p-10">
-          <h1 className="text-3xl">Why you choose us</h1>
-          <p>
+          <h1 className="text-4xl font-semibold">Why you choose us</h1>
+          <p className="text-gray-500 py-3 leading-5">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo iure,
             fuga vero quae doloremque, cumque ratione dolorum.
           </p>

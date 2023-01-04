@@ -6,7 +6,7 @@ const FoodNavbar = () => {
   const { categories } = useFood();
   
   return (
-    <div className="md:text-xl text-lg text-center font-bold md:my-20 my-10">
+    <div className="md:text-xl text-md text-center md:font-bold font-semibold md:my-20 my-10">
       {categories?.map((category) => (
         <NavLink
           className={({ isActive }) =>

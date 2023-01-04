@@ -21,7 +21,7 @@ const FoodCategory = () => {
             key={food.id}
             className="w-5/6 mx-auto cursor-pointer"
           >
-            <div className="bg-white rounded-lg hover:drop-shadow-2xl p-4 flex flex-col justify-center items-center">
+            <div className="bg-white rounded-lg md:drop-shadow-sm drop-shadow-md hover:drop-shadow-2xl my-4 p-4 flex flex-col justify-center items-center">
               <img src={food.image} alt={food.name} className="w-48 rounded" />
               <div className="text-2xl text-center font-bold text-gray-800 my-2">
                 {food.name}

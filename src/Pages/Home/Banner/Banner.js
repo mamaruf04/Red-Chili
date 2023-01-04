@@ -2,9 +2,9 @@ import "./Banner.css";
 
 const Banner = () => {
   return (
-    <section className="bg-[url('https://i.ibb.co/J2HWGGp/bannerbackground.png')]  bg-cover  bg-no-repeat flex flex-col items-center justify-center bg-center md:min-h-screen h-40 min-w-full overflow-hidden">
-      <h1 className="md:text-5xl text-2xl text-black font-medium md:mb-8 mb-2">
-        Best food witting for your belly
+    <section className="bg-[url('https://i.ibb.co/rGBjKXT/bannerbackground.png')]  bg-cover  bg-no-repeat flex flex-col items-center justify-center bg-center md:min-h-screen h-64 min-w-full overflow-hidden">
+      <h1 className="text-center md:text-6xl text-4xl text-black font-medium md:mb-8 mb-3">
+        Best food waiting for your belly
       </h1>
       <div className="relative rounded-lg shadow-lg">
         <input

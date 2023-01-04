@@ -6,7 +6,7 @@
       "items": [
         {
           "id": 1,
-          "image": "https://i.ibb.co/3SG23ZL/breakfast1.png",
+          "image": "https://i.ibb.co/zSm1TzM/breakfast1.png",
           "name": "Eggs",
           "description": "Scrambled eggs",
           "price": 6.99,
@@ -14,7 +14,7 @@
         },
         {
           "id": 2,
-          "image": "https://i.ibb.co/cKWV561/breakfast2.png",
+          "image": "https://i.ibb.co/BgBzrT6/breakfast2.png",
           "name": "Oatmeal",
           "description": "Oatmeal with brown sugar and raisins",
           "price": 5.99,
@@ -22,7 +22,7 @@
         },
         {
           "id": 3,
-          "image": "https://i.ibb.co/M90jDjv/breakfast3.png",
+          "image": "https://i.ibb.co/mFX72Dm/breakfast3.png",
           "name": "Yogurt and Fruit",
           "description": "Plain yogurt with fruit",
           "price": 4.99,
@@ -30,7 +30,7 @@
         },
         {
           "id": 4,
-          "image": "https://i.ibb.co/gDkfmG2/breakfast6.png",
+          "image": "https://i.ibb.co/4RFRbLb/breakfast4.png",
           "name": "Yogurt and Fruit",
           "description": "Plain yogurt with fruit",
           "price": 4.99,
@@ -38,7 +38,7 @@
         },
         {
           "id": 5,
-          "image": "https://i.ibb.co/3W9f6RP/breakfast4.png",
+          "image": "https://i.ibb.co/CvCxHxY/breakfast5.png",
           "name": "Yogurt and Fruit",
           "description": "Plain yogurt with fruit",
           "price": 4.99,
@@ -46,7 +46,7 @@
         },
         {
           "id": 6,
-          "image": "https://i.ibb.co/nB1cNsP/breakfast5.png",
+          "image": "https://i.ibb.co/GPdShTd/breakfast6.png",
           "name": "Yogurt and Fruit",
           "description": "Plain yogurt with fruit",
           "price": 4.99,
@@ -59,7 +59,7 @@
       "items": [
         {
           "id": 7,
-          "image": "https://i.ibb.co/GVkVvZq/lunch1.png",
+          "image": "https://i.ibb.co/y5BBNbx/lunch1.png",
           "name": "Grilled Cheese Sandwich",
           "description": "Melted cheese on toasted bread",
           "price": 6.99,
@@ -67,7 +67,7 @@
         },
         {
           "id": 8,
-          "image": "https://i.ibb.co/TkSjfyw/lunch2.png",
+          "image": "https://i.ibb.co/wNgTGC8/lunch2.png",
           "name": "Peanut Butter and Jelly Sandwich",
           "description": "Peanut butter and jelly on toasted bread",
           "price": 4.99,
@@ -75,7 +75,7 @@
         },
         {
           "id": 9,
-          "image": "https://i.ibb.co/YPkdbKf/lunch3.png",
+          "image": "https://i.ibb.co/ZNXpRvP/lunch3.png",
           "name": "Peanut Butter and Jelly Sandwich",
           "description": "Peanut butter and jelly on toasted bread",
           "price": 4.99,
@@ -83,7 +83,7 @@
         },
         {
           "id": 10,
-          "image": "https://i.ibb.co/fC47Z27/lunch4.png",
+          "image": "https://i.ibb.co/NsxJnYg/lunch4.png",
           "name": "Peanut Butter and Jelly Sandwich",
           "description": "Peanut butter and jelly on toasted bread",
           "price": 4.99,
@@ -91,7 +91,7 @@
         },
         {
           "id": 11,
-          "image": "https://i.ibb.co/R753vqp/lunch5.png",
+          "image": "https://i.ibb.co/nB6y9Mq/lunch5.png",
           "name": "Peanut Butter and Jelly Sandwich",
           "description": "Peanut butter and jelly on toasted bread",
           "price": 4.99,
@@ -99,7 +99,7 @@
         },
         {
           "id": 12,
-          "image": "https://i.ibb.co/jHzhYC2/lunch6.png",
+          "image": "https://i.ibb.co/ZHrd1KY/lunch6.png",
           "name": "Soup and Salad Combo",
           "description": "Cup of soup and a side salad",
           "price": 7.99,
@@ -112,7 +112,7 @@
       "items": [
         {
           "id": 19,
-          "image": "https://i.ibb.co/nB1cNsP/breakfast5.png",
+          "image": "https://i.ibb.co/4RFRbLb/breakfast4.png",
           "name": "Yogurt and Fruit",
           "description": "Hamburger patty with fries",
           "price": 8.99,
@@ -120,7 +120,7 @@
         },
         {
           "id": 20,
-          "image": "https://i.ibb.co/dLqttJc/dinner1.png",
+          "image": "https://i.ibb.co/GPdShTd/breakfast6.png",
           "name": "Hamburger",
           "description": "Hamburger patty with fries",
           "price": 8.99,
@@ -133,7 +133,7 @@
       "items": [
         {
           "id": 13,
-          "image": "https://i.ibb.co/dLqttJc/dinner1.png",
+          "image": "https://i.ibb.co/SNLqXN3/dinner1.png",
           "name": "Hamburger",
           "description": "Hamburger patty with fries",
           "price": 8.99,
@@ -141,7 +141,7 @@
         },
         {
           "id": 14,
-          "image": "https://i.ibb.co/W0tPJhV/dinner2.png",
+          "image": "https://i.ibb.co/0K0Wc1m/dinner2.png",
           "name": "Spaghetti and Meatballs",
           "description": "Spaghetti noodles with meatballs and marinara sauce",
           "price": 9.99,
@@ -149,7 +149,7 @@
         },
         {
           "id": 15,
-          "image": "https://i.ibb.co/m4jKVF4/dinner3.png",
+          "image": "https://i.ibb.co/d514cQ2/dinner3.png",
           "name": "Grilled Chicken",
           "description": "Grilled chicken with vegetables",
           "price": 10.99,
@@ -157,7 +157,7 @@
         },
         {
           "id": 16,
-          "image": "https://i.ibb.co/5c3q5vB/dinner4.png",
+          "image": "https://i.ibb.co/Q94zGct/dinner4.png",
           "name": "Salmon",
           "description": "Grilled salmon with vegetables",
           "price": 12.99,
@@ -165,7 +165,7 @@
         },
         {
           "id": 17,
-          "image": "https://i.ibb.co/4T4jW8c/dinner5.png",
+          "image": "https://i.ibb.co/X78VFsv/dinner5.png",
           "name": "Steak",
           "description": "Grilled steak with vegetables",
           "price": 14.99,
@@ -173,7 +173,7 @@
         },
         {
           "id": 18,
-          "image": "https://i.ibb.co/tLkXtFd/dinner6.png",
+          "image": "https://i.ibb.co/v3m46vj/dinner6.png",
           "name": "Pizza",
           "description": "Pepperoni pizza",
           "price": 9.99,

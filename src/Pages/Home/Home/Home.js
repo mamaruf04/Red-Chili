@@ -7,12 +7,14 @@ import WhyUs from "../WhyUs/WhyUs";
 
 const Home = () => {
   return (
-    <div className="">
+    <div>
       <Banner></Banner>
-      <FoodNavbar></FoodNavbar>
-      <Outlet></Outlet>
-      {/* <FoodDetails></FoodDetails> */}
-      <WhyUs></WhyUs>
+      <div className="max-w-7xl mx-auto">
+        <FoodNavbar></FoodNavbar>
+        <Outlet></Outlet>
+        <WhyUs></WhyUs>
+      </div>
+
       <Footer></Footer>
     </div>
   );
