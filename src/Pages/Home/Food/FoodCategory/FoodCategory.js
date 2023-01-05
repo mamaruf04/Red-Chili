@@ -1,11 +1,15 @@
 import React from "react";
+import { useAuthState } from "react-firebase-hooks/auth";
 import { useNavigate, useParams } from "react-router-dom";
+import auth from "../../../../firebase.init";
 import useFood from "../../../../hooks/useFood";
 
 const FoodCategory = () => {
   const { categories } = useFood();
   const { foodCategory } = useParams();
   const params = foodCategory || "breakfast";
+
+  const [user, loading, error] = useAuthState(auth);
 
   const navigate = useNavigate();
 
@@ -35,10 +39,12 @@ const FoodCategory = () => {
         ))}
       </div>
       <button
-        onClick={() => navigate("/checkout")}
-        disabled
-        className="flex  justify-center mb-20 mx-auto w-60 px-4 py-2 bg-red-600 hover:bg-red-700 disabled:bg-gray-300 rounded-lg text-white font-medium"
-        to="/checkout"
+        onClick={user ? () => navigate("/checkout") : ""}
+        className={
+          user
+            ? "flex justify-center mb-20 mx-auto rounded-lg w-60 px-4 py-2 bg-[#F91944] hover:bg-[#e30f39] text-white font-medium"
+            : "flex justify-center mb-20 mx-auto w-60 px-4 py-2 bg-gray-300 rounded-lg disabled text-white font-medium"
+        }
       >
         Checkout your food
       </button>
