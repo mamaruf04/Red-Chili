@@ -2,7 +2,9 @@ import { Route, Routes } from "react-router-dom";
 import Home from "../src/Pages/Home/Home/Home";
 import Header from "../src/Pages/Shared/Header/Header";
 import "./App.css";
-import SocialLogin from "./Pages/Accounts/SocialLogin/SocialLogin";
+import Login from "./Pages/Accounts/Login/Login";
+import SignUp from "./Pages/Accounts/SignUp/SignUp";
+import Cart from "./Pages/Cart/Cart";
 import CheckOut from "./Pages/Home/CheckOut/CheckOut";
 import FoodCategory from "./Pages/Home/Food/FoodCategory/FoodCategory";
 import FoodDetails from "./Pages/Home/Food/FoodDetails/FoodDetails";
@@ -36,7 +38,11 @@ function App() {
           <Route path="/checkout" element={<CheckOut></CheckOut>}></Route>
         </Route>
 
-        <Route path="/login" element={<SocialLogin></SocialLogin>}></Route>
+        <Route path="/login" element={<Login></Login>}></Route>
+
+        <Route path="/signup" element={<SignUp></SignUp>}></Route>
+
+        <Route path="/cart" element={<Cart></Cart>}></Route>
 
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>

@@ -11,7 +11,14 @@ const useFood = () => {
       .then((data) => setCategories(data?.record.menu));
   }, []);
 
-  return { categories, setCategories };
+  const allItems = [];
+  categories?.forEach((category) => {
+    category?.items?.forEach((item) => {
+      allItems.push(item);
+    });
+  });
+
+  return { categories, allItems };
 };
 
 export default useFood;

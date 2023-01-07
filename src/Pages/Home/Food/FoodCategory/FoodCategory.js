@@ -39,7 +39,9 @@ const FoodCategory = () => {
         ))}
       </div>
       <button
-        onClick={user ? () => navigate("/checkout") : ""}
+        onClick={
+          user ? () => navigate("/checkout") : () => navigate("")
+        }
         className={
           user
             ? "flex justify-center mb-20 mx-auto rounded-lg w-60 px-4 py-2 bg-[#F91944] hover:bg-[#e30f39] text-white font-medium"

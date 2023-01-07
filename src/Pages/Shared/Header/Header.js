@@ -23,18 +23,25 @@ const Header = () => {
       </Link>
 
       <div className="flex items-center">
-        <button className=" py-2 rounded-lg transform ease-out duration-300  text-black md:hover:text-[#F91944] focus:outline-none focus:shadow-outline">
+        <Link to={"/cart"} className=" py-2 rounded-lg transform ease-out duration-300  text-black md:hover:text-[#F91944] focus:outline-none focus:shadow-outline">
           <ShoppingCartIcon className="w-6 h-6"></ShoppingCartIcon>
-        </button>
+        </Link>
 
         {user ? (
-          <Link
-            onClick={handleSignOut}
-            to={"/"}
-            className="md:px-4 px-2 py-1 rounded-full  transform ease-out duration-300 text-white bg-[#F91944] hover:bg-[#e10d37] focus:outline-none focus:shadow-outline ml-4"
-          >
-            Logout
-          </Link>
+          <>
+            <Link
+              onClick={handleSignOut}
+              to={"/"}
+              className="md:px-4 px-2 py-1 rounded-full  transform ease-out duration-300 text-white bg-[#F91944] hover:bg-[#e10d37] focus:outline-none focus:shadow-outline ml-4"
+            >
+              Logout
+            </Link>
+            <img
+              className="rounded-full w-8 h-8 md:w-10 md:h-10 ml-3 md:ml-5"
+              src={user?.photoURL}
+              alt=""
+            />
+          </>
         ) : (
           <>
             <Link
@@ -44,9 +51,9 @@ const Header = () => {
               Login
             </Link>
 
-            <button className="md:px-4 px-3 py-1 rounded-full bg-[#F91944] text-white hover:bg-[#e10d37] transform ease-out duration-300 focus:outline-none focus:shadow-outline ml-4">
+            <Link to={"/signup"} className="md:px-4 px-3 py-1 rounded-full bg-[#F91944] text-white hover:bg-[#e10d37] transform ease-out duration-300 focus:outline-none focus:shadow-outline ml-4">
               Sign up
-            </button>
+            </Link>
           </>
         )}
       </div>
